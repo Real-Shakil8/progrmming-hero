@@ -1,0 +1,22 @@
+h2{
+    color: orangered;
+    background-color: pink;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+body{
+    background-image: url('../project/fastWebsite/images/home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.heading{
+    text-decoration: 1rem wavy orange;
+}
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: palevioletred;
+    box-shadow: 1px 1px 10px .5px black;
+}
