@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tea stall</title>
+    <link rel="stylesheet" href="style/nav.css">
+
+    <style>
+        textarea,label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            width: 50%;
+            margin: 5px 0;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/project/html5-into/table.htm">Home</a></li>
+                <li><a href="/project//html5-into/semantic.htm">Semantic</a></li>
+                <li><a href="/project/html5-into/teastall.htm">Tea</a></li>
+                <li><a href="/project/html5-into/audio-and-video.htm">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Tea Stall</h1>
+
+    <form>
+        <label for="name">Your Name 
+            <input type="text" name="" id="name" placeholder="Your Name">
+        </label>
+        <label for="email">Your Email 
+            <input type="email" name="" id="email" placeholder="Your Email">
+        </label>
+        <label for="phone-number">Your Number 
+            <input type="number" name="" id="phone-number" placeholder="Your Number">
+        </label>
+        <label for="pass">Your Password 
+            <input type="password" name="" id="pass" placeholder="Password">
+        </label>
+
+        <fieldset>
+            <legend>Type Of tea</legend>
+            <label for="red-tea">
+                <input type="radio" name="tea" id="red-tea">Red Tea
+            </label>
+            <label for="milk-tea">
+                <input type="radio" name="tea" id="milk-tea">Milk Tea
+            </label>
+            <label for="coffee">
+                <input type="radio" name="tea" id="coffee">Coffee
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Check item</legend>
+            <label for="sugar-low">
+                <input type="checkbox" name="item" id="sugar-low">
+                Sugar-low
+            </label>
+            <label for="sugar-high">
+                <input type="checkbox" name="item" id="sugar-high">
+                Sugar-high
+            </label>
+            <label for="sugar-medium">
+                <input type="checkbox" name="item" id="sugar-medium">
+                Sugar-medium
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Where are you from</legend>
+            <select name="" id="">
+                <option value="tangail">Tangail</option>
+                <option value="ghtail">Ghatail</option>
+                <option value="boguta">Bogura</option>
+                <option value="others">Others</option>
+            </select>
+        </fieldset>
+        <textarea name="address" id="address" cols="35" rows="10">
+        something write..
+        </textarea>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
+    </form>
+</body>
+</html>
